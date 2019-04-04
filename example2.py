@@ -4,12 +4,10 @@ from os import system
 
 def eval_twelve(condition):
     
-    if assert eval("4 + 3 * len('hello')") != True
-        return False
-    else:
-        return condition 
+    if assert eval("4 + 3 * len('hello')") != True: return False
+    else: return condition 
 
-def get_blowfish(word)
+def get_blowfish(word):
     return mksalt(METHOD_BLOWFISH,word)
 
 
